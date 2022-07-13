@@ -1,0 +1,133 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/main1.png);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    position: relative;
+}
+.head-content{
+    width: 40%;
+    color: white;
+    /* margin-left: 150px; */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    /* bottom: 40%; */
+}
+.head-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.head-content p{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+ .btn{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #EF233C;
+    border: none;
+    border-radius: 5px;
+}
+/* header section syle done */
+
+#message{
+    margin: 90px 0px;
+
+}
+#first-message , #second-message{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.first-message , .second-message{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.fm-text{
+    padding-right: 30px;
+}
+.fm-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fm-text p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.sm-text{
+    padding-right: 0;
+    padding-left: 40px;
+}
+/* second section style done */
+
+#help{
+    margin: 100px 0px;
+}
+.upper-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.upper-text h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.upper-text p{
+    tab-size: 35px;
+    font-weight: 500;
+    padding: 50px 0px;
+}
+/* card section starts from here */
+.lower-cards{
+    /* padding: 50px 0px; */
+    display: flex;
+    justify-content: center;
+}
+.card-section{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.card{
+    width: 40%;
+    display: flex;
+    background-color: #FEF4F5;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.card .img{
+    padding: 0px 10px;
+}
+.card .text h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card .text p{
+    font-size: 15px;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+/* third section done  */
+
+#img-sky{
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+.img-section{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
