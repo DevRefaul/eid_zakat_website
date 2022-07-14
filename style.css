@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{
-    background-image: url(img/main1.png);
+    background: linear-gradient(220deg,rgba(26, 26, 26, .0), rgba(26, 26, 26, 1)), url(img/main1.png);
     height: 80vh;
     background-position: center;
     background-size: cover;
@@ -38,6 +38,13 @@ header{
     background-color: #EF233C;
     border: none;
     border-radius: 5px;
+}
+.btn:hover{
+    font-weight: 500;
+    color: #EF233C;
+    background-color: #fff;
+    border: 1.5px solid #EF233C;
+    padding: 10px 40px;
 }
 /* header section syle done */
 
@@ -130,4 +137,74 @@ header{
     width: 70%;
     display: flex;
     justify-content: space-evenly;
+}
+
+/* fourth section  done */
+#charity{
+    margin-bottom: 90px;
+}
+.charity-text{
+    text-align: center;
+}
+.charity-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.charity-text p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.cards-container{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.charity-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%
+}
+.charity-card{
+    width: 30%;
+    border: 1.5px solid rgb(114, 114, 114);
+    border-radius: 10px;
+}
+.charity-img img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.charity-card .text{
+    padding: 10px 20px;
+}
+.charity-card .text h4{
+    font-size: 20px;
+    padding-bottom: 10px ;
+}
+.charity-card .text p{
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.charity-card .text a{
+    text-decoration: none;
+    color: #EF233C;
+    font-weight: 700;
+}
+
+/* body section style done */
+
+/* footer section started */
+footer{
+    padding: 50px 0px;
+    background-color: #121212;
+    text-align: center;
+
+}
+footer h2{
+    color: #EF233C;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+footer h4{
+    color: #fff;
 }
